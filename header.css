@@ -1,43 +1,40 @@
 #header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: black;
-
-    padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  padding: 5%;
 }
 
 #logo {
-    color: rgb(255, 0, 0);
-    display: flex;
-    justify-content: center;
-    margin-bottom: 25px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
 }
 
 #title {
-    font-size: 5vw;
+  font-size: 5vw;
 }
 
 .navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-@media (max-width: 905px) {
-    .navbar {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
+.navbutton {
+  background-color: rgb(255, 230, 0);
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  margin: 0 5 0 5;
+}
 
-  .navbutton {
-    background-color: rgb(255, 230, 0);
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    display: flex;
-    margin: 0 5 0 5;
-  }
+.navbutton:hover {
+  background-color: rgba(255, 230, 0, 0.809);
+  color: red;
+}

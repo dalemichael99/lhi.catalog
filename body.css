@@ -1,0 +1,29 @@
+.gridTitle {
+    margin: 20px;
+}
+
+.gridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    background-color: pink;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 200px;
+    padding: 10px;
+}
+
+.productImg {
+    width: 100%;
+}
+
+.textBox {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
